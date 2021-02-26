@@ -1,0 +1,15 @@
+.Body img{
+  margin-top: 35px;
+  width: 100vw;
+  opacity: 0.3;
+}
+
+.Body img:hover {
+  transition: 300ms;
+  opacity: 1;
+}
+
+h1{
+  margin: 40px auto;
+  color: rgb(97, 0, 0);
+}
