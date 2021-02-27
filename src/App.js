@@ -1,4 +1,3 @@
-import "./App.css";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -65,7 +64,7 @@ const data = {
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header logo={data.logo} name={data.name} />
       <Body
         cover={data.cover}
@@ -74,8 +73,8 @@ function App() {
         products={data.products}
       />
       <Footer company={data.company} />
-    </div>
+    </>
   );
 }
 
-export default App;
+  export default App;

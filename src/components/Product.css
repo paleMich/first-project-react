@@ -2,6 +2,13 @@
   list-style: none;
 }
 
-.Body{
-  
+.Product{
+  border: 1px solid black;
+  margin: 25px auto;
+  border-radius: 4px;
+}
+
+img .Product{
+  width: 50px; 
+  opacity: 1;
 }

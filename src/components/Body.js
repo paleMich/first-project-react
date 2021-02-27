@@ -27,7 +27,7 @@ class Body extends React.Component{
         <div className="content">
           <h1>{title}</h1>
           <h2>{description}</h2>
-          <div className="products-container">
+          <div>
             {showProducts ? (
               <Product products={products}/>
             ) : (
