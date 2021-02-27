@@ -19,7 +19,17 @@ h1{
   color: rgb(97, 0, 0);
 }
 
+.card-wrapper button{
+  margin: 35px auto;
+  padding: 6px;
+  border-radius: 6px;
+  color: white;
+  border-color: transparent;
+  background-color: rgb(0, 149, 152);
+}
+
 .card-wrapper{
+  padding: auto;
   max-width: 800px;
   min-width: 800px;
   display: flex;
