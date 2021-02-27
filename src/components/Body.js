@@ -23,11 +23,11 @@ class Body extends React.Component{
 
     return (
       <main className="Body">
-        <img src={cover} alt={title} />
+        <img src={cover} alt={title} className='first-img'/>
         <div className="content">
           <h1>{title}</h1>
           <h2>{description}</h2>
-          <div>
+          <div className='card-wrapper'>
             {showProducts ? (
               <Product products={products}/>
             ) : (

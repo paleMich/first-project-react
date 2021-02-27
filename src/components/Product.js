@@ -6,8 +6,7 @@ function Product({products}) {
       products.map((product) => <li className='Product'>
           <img src={product.image} alt=''></img>
           <h4>{product.title}</h4>
-          <span>{product.price}</span>
-          <p>{product.description}</p>
+          <span>{product.price}€</span>
         </li>
       )
   )

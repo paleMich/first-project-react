@@ -3,12 +3,32 @@
 }
 
 .Product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  scroll-snap-align: start;
+  min-width: 350px;
+  max-width: 350px;
+  height: 320px;
   border: 1px solid black;
-  margin: 25px auto;
-  border-radius: 4px;
+  margin: 70px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px -15px;
 }
 
-img .Product{
-  width: 50px; 
+.Product img{
+  margin: 15px auto;
+  width: 100px; 
   opacity: 1;
+}
+
+.Product h4{
+  font-size: 0.9rem;
+  margin: auto 10px;
+}
+
+.Product span{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }

@@ -1,10 +1,15 @@
-.Body img{
-  margin-top: 35px;
+.Body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-img{
   width: 100vw;
   opacity: 0.3;
 }
 
-.Body img:hover {
+.first-img:hover {
   transition: 300ms;
   opacity: 1;
 }
@@ -12,4 +17,15 @@
 h1{
   margin: 40px auto;
   color: rgb(97, 0, 0);
+}
+
+.card-wrapper{
+  max-width: 800px;
+  min-width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
